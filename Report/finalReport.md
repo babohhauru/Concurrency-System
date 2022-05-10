@@ -4,5 +4,5 @@
 
 ## ROS2的基本机制
 由多个节点组成ROS graph来同时处理数据，每一个节点负责控制一个部件同时每一个节点都可以收发数据到其他节点。
-![](c:%5CUsers%5Cbabo%5CDesktop%5CNodes-TopicandService.gif)
+![](https://github.com/babohhauru/Concurrency-System/tree/main/Report/Nodes-TopicandService.gif)
 节点之间的通信方式主要分为了Topic(Publisher-Subscriber模型), Services(Call-And-Response模型)和Action(Client-Server)三种。其中Topic是最常见的，Topic充当节点之间交换消息的总线每一个节点都可以向任意数量的Topic发送数据，同时Subscribe任意个Topic。
